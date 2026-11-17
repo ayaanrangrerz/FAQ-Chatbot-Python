@@ -1,20 +1,13 @@
-# FAQ-Chatbot-Python
 # FAQ Chatbot
 
-A simple chatbot that answers frequently asked questions using NLP and cosine similarity.
+A Python FAQ chatbot that preprocesses text and uses cosine similarity to select a response from its FAQ data.
 
-## Features
-- FAQ dataset support
-- Text preprocessing
-- Similarity matching
-- Instant responses
+## Requirements
+Python 3, NLTK, and scikit-learn.
 
-## Technologies Used
-- Python
-- NLTK
-- Scikit-learn
+```bash
+python -m pip install nltk scikit-learn
+python Chatbot.py
+```
 
-## Run
-pip install nltk scikit-learn
-
-python chatbot.py
+The chatbot runs in the terminal. Its answers depend on the questions and responses included in the project data/code; similarity matching may return an imperfect answer.
